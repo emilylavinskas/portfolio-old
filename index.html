@@ -16,7 +16,17 @@
         <li><a href="#contentinfo">Jump to Footer</a></li>
     </ul>
     
-    <!-- <img class="toggle" src="images/menu.svg" alt="menu toggle"> -->
+    <img class="toggle" src="images/menu.svg" alt="toggle">
+    
+    <div class="toggle-panel">
+        <nav id="nav" role="navigation">
+            <ul class="nav">
+                <li class="about-me-menu"><a class="tera gutter-half" href="#about">Hey! I'm Emily</a></li>
+                <li class="portfolio-pieces-menu"><a class="tera gutter-half" href="#portfolio">Portfolio</a></li>
+                <li class="contact-menu"><a class="tera gutter-half" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     
     <header class="billboard">
         <div class="layer-billboard"></div>
@@ -25,12 +35,13 @@
         </div>
     </header>
     
-    <div class="about-section">
+<main id="main" role="main">
+    <div class="about-section" id="about">
         <h2 class="bio-title">Hey! I'm Emily</h2>
         <p class="bio grid">From a young age, I was always interested in making beautiful things. At age 4, I wanted to be a Princess, at age 7, I changed my mind and wanted to be a painter. When I was 11 and graduating from elementary school, I wrote in my yearbook that I wanted to be a web designer. Turns out, my 11 year old self knew from a young age what I was meant to do. Now, you can find me sketching out website concepts, editorial layouts, typographic pieces and out and about taking photos.</p>
     </div>
     
-    <div class="portfolio-section">
+    <div class="portfolio-section" id="portfolio">
         <div class="portfolio-pieces">
             <img class="portfolio-piece-1" src="images/test-photo.jpg">
             <img class="portfolio-piece-2" src="images/test-photo.jpg">
@@ -41,7 +52,7 @@
         </div>
     </div>
     
-    <div class="contact-section">
+    <div class="contact-section" id="contact">
         <h2 class="contact-title">Impressed? Let's talk!</h2>
        <!-- <div class="icons">
             <img class="icon-1" src="images/email-icon.svg">
@@ -50,6 +61,11 @@
             <img class="icon-4" src="images/email-icon.svg">
         </div> -->
     </div>
+</main>
     
 </body>
+    
+<footer id="contentinfo" role="contentinfo" class="footer-info">
+    <p class="copyright micro">Copyright Emily Lavinskas 2015.</p>       
+</footer>
 </html>
