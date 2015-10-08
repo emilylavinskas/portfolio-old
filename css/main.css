@@ -126,10 +126,13 @@ body {
     font-size: 5em;
     position: relative;
     letter-spacing: .25em;
-    margin: 0 auto;
+    margin: auto;
     width: 60%;
     border: 2px solid #fff;
-    margin-top: 4em;
+    top: 5em;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50);
+    transform: translateY(-50%);
 }
 
 .about-section {
