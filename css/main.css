@@ -13,7 +13,7 @@ html {
   text-size-adjust: 100%;
 
     font-family: sans-serif;
-    color: 000;
+    color: #000;
     font-weight: 300;
 }
 
@@ -100,9 +100,10 @@ body {
 
 .billboard {
     position: relative;
-    background-image: url("../images/portrait.jpg");
+    background-image: url("../images/portrait-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     overflow: hidden;
@@ -123,13 +124,13 @@ body {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-size: 5em;
+    font-size: 3em;
     position: relative;
     letter-spacing: .25em;
     margin: auto;
-    width: 60%;
+    width: 90%;
     border: 2px solid #fff;
-    top: 5em;
+    top: 8em;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50);
     transform: translateY(-50%);
@@ -156,18 +157,60 @@ body {
 .bio {
     font-family: 'Raleway', sans-serif;
     line-height: 25px;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
     padding-bottom: 3em;
 }
 
+.icons {
+    padding-bottom: .5em;
+    display: block;
+    visibility: visible;
+    width: 100%;
+}
+
+.icon-caption {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    padding-bottom: 2em;
+    margin: 0 auto;
+
+}
+
+/*.skill-graphic {
+    display: inline-block;
+    height: 3em;
+    margin-right: 10em;
+}
+
+.skill-item {
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 1em;
+    margin: 5em;
+    text-align: center;
+} */
+
 .portfolio-piece {
+    width: 100%;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(78, 19, 30, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
 }
 
 .contact-section {
-    background-color: #231f20;
+    background-image: url("../images/wood-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
+    clear: both;
 }
 
 .contact-title {
@@ -180,15 +223,16 @@ body {
 }
 
 .icon-1, .icon-2, .icon-3, .icon-4 {
-    height: 6em;
-    padding-top: 2em;
-    float: left;
+    margin-bottom: 1em;
     display: inline-block;
-    width: 15%;
-    margin-bottom: 2em;
+    width: 3em;
 }
 
 .footer-info {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-image: url("../images/wood-background.jpg");
+    overflow: hidden;
     text-align: center;
     font-size: .75em;
 }
@@ -215,7 +259,7 @@ body {
         height: 30px;
         margin-top: 1.75em;
         margin-right: 1.75em;
-        right: 0em;
+        position: absolute;
     }
     
 }
@@ -250,6 +294,23 @@ body {
         margin-right: 1.75em;
         right: 0em;
     }
+    
+    .billboard-text {
+        font-size: 4em;
+        width: 70%;
+        border: 2px solid #fff;
+        top: 6.25em;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50);
+        transform: translateY(-50%);
+    }
+    
+    .icons {
+        padding-bottom: .5em;
+        display: inline-block;
+        visibility: visible;
+        width: 20%;
+}
 }
 
 
@@ -269,4 +330,14 @@ body {
     .toggle {
         display: none;
     } 
+    
+    .billboard-text {
+        font-size: 5em;
+        width: 60%;
+        border: 2px solid #fff;
+        top: 5em;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50);
+        transform: translateY(-50%);
+    }
 }
