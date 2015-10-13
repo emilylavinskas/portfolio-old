@@ -77,15 +77,6 @@ body {
     max-height: 5em;
 }
 
-.scrolldown {
-    margin-left: -32px;
-    margin-top: -32px;
-    width: 50px;
-    top: 47em;
-    position: absolute;
-    left: 50%;
-}
-
 .billboard {
     position: relative;
     background-image: url("../images/portrait-blue.jpg");
@@ -118,7 +109,7 @@ body {
     margin: auto;
     width: 90%;
     border: 2px solid #000;
-    top: 8.5em;
+    top: 6.5em;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50);
     transform: translateY(-50%);
@@ -226,18 +217,15 @@ body {
         padding-left: 5em;
         padding-right: 5em;
     }
+    
+    .billboard-text {
+        top: 4.25em;
+    }
 
 }
 
 @media only screen and (min-width: 48em) /* TABLET */ {
 
-    .scrolldown {
-        margin: 0 auto;
-        width: 50px;
-        position: relative;
-        top: 35em;
-    }
-    
     .wordmark {
         position: absolute;
         height: 3em;
@@ -260,7 +248,7 @@ body {
         font-size: 4em;
         width: 70%;
         border: 2px solid #000;
-        top: 6.25em;
+        top: 8em;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50);
         transform: translateY(-50%);
@@ -294,14 +282,24 @@ body {
     }
 }
 
+@media only screen and (min-width: 60em) /* TABLET - LANDSCAPE */ {
+    
+    .billboard-text {
+        font-size: 4em;
+        width: 70%;
+        border: 2px solid #000;
+        top: 6em;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50);
+        transform: translateY(-50%);
+    }  
+}
+
 
 @media only screen and (min-width: 72em) /* DESKTOP */ {
     
-    .scrolldown {
-        margin: 0 auto;
-        width: 50px;
-        position: relative;
-        top: 32em;
+    .billboard-text {
+        top: 46em;
     }
     
     .about-section {
@@ -360,7 +358,7 @@ body {
         font-size: 5em;
         width: 60%;
         border: 2px solid #000;
-        top: 5em;
+        top: 5.5em;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50);
         transform: translateY(-50%);
@@ -376,7 +374,6 @@ body {
         left: 25%;
         right: 25%;
     }
-    
     
     .icons {
         padding-bottom: .5em;
