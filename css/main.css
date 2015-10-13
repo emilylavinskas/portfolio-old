@@ -61,7 +61,7 @@ body {
 
 .toggle {
     position: absolute;
-    height: 2em;
+    height: 1.5em;
     margin-top: 1.5em;
     margin-right: 1.25em;
     right: 0em;
@@ -272,15 +272,15 @@ body {
     }
     
     .skill-icons-placement {
+        display: inline-block;
         position: relative;
-        left: 15%;
-        right: 15%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .icons {
         padding-bottom: .25em;
         margin-right: .5em;
-        display: inline-block;
         height: 13em;
         width: 100%;
         vertical-align: top;
