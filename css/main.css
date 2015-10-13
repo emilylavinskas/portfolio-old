@@ -112,13 +112,13 @@ body {
     text-align: center;
     color: #000;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2.75em;
     position: relative;
     letter-spacing: .25em;
     margin: auto;
     width: 90%;
     border: 2px solid #000;
-    top: 8em;
+    top: 8.5em;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50);
     transform: translateY(-50%);
