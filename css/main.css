@@ -312,6 +312,13 @@ body {
 
 @media only screen and (min-width: 72em) /* DESKTOP */ {
     
+    .wordmark {
+        position: absolute;
+        height: 3.5em;
+        margin-top: 1.5em;
+        margin-left: 1.5em;
+    }
+    
     .billboard-text {
         top: 46em;
     }
@@ -372,7 +379,7 @@ body {
         font-size: 5em;
         width: 60%;
         border: 2px solid #000;
-        top: 5.5em;
+        top: 5.25em;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50);
         transform: translateY(-50%);
