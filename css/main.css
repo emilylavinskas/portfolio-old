@@ -125,7 +125,7 @@ body {
 }
 
 .bio-title {
-    color: #559cb5;
+    color: #4d1620;
     font-size: 2.5em;
 }
 
@@ -141,11 +141,10 @@ body {
     line-height: 25px;
     padding-left: .5em;
     padding-right: .5em;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }
 
 .icons {
-    padding-bottom: .5em;
     display: inline-block;
     height: 15em;
     width: 100%;
@@ -329,7 +328,7 @@ body {
     }
     
     .portfolio-piece {
-        width: 33.3333%;
+        max-width: 33.3333%;
         display: inline-block;
         float: left;
     }
@@ -391,7 +390,7 @@ body {
     }
     
     .icons {
-        padding-bottom: .5em;
+        margin-bottom: .5em;
         height: 13em;
     }
 }
